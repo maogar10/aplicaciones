@@ -1,0 +1,28 @@
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-header--title{
+    padding-left: 1rem;
+}
+.home-header--image{
+    max-height: 150px;
+}
+.home-section{
+    margin-top: 1rem;
+}
+.home-section p{
+    margin-top: .5rem;
+}
+.home-section ul{
+    margin-top: 1rem;
+}
+.home-section ul li{
+    list-style: none;
+    margin-top: .7rem;
+}
+.home-section ul li a{
+    text-decoration: none;
+}

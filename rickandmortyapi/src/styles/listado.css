@@ -1,0 +1,49 @@
+
+.header-listado h2{
+    
+}
+.header-listado p{
+margin-top: .7rem;
+}
+.header-listado button{
+    margin-top: 1rem;
+    border: none;
+    padding: .4rem .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: tomato;
+    border-radius: .3rem;
+    margin-left: 1rem;
+}
+
+.main-listado{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.listado p{
+    margin-top: .5rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+.listado p:hover{
+    color: peru;
+    transform: scale(1.1);
+}
+.listado{
+    width: 30%;
+}
+.personaje{
+    width: 60%;
+}
+.personaje h2{
+    margin-bottom: 1rem;
+}
+.personaje img{
+    border-radius: .4rem;
+}
+.personaje p{
+    margin: .4rem 0;
+}
